@@ -56,5 +56,5 @@ Users can also register, log in, view available events, purchase tickets, and pr
 ### Tech Stack
 
 Programming Language: Python
-Database: SQLite
-Libraries: sqlite3, datetime, csv
+<br/> Database: SQLite
+<br/> Libraries: sqlite3, datetime, csv
