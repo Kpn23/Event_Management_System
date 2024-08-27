@@ -6,12 +6,19 @@ The Event Management System is a comprehensive application designed to facilitat
 
 ### Features
 
-User Management: Create, read, update, and delete user accounts.
-Event Management: Add, view, update, and delete events and their schedules.
-Venue Management: Manage venue details including location and capacity.
-Ticket Management: Handle ticket creation, sales, and cancellations.
-Feedback System: Collect and manage user feedback on events.
-Reporting and Analytics: Generate reports and analyze ticket sales and user activities.
+- User Management:
+  User Types: Differentiate between admin (user_type: 0) and regular users (user_type: 1).
+  Create, read, update, and delete user accounts based on user type.
+- Event Management:
+  Add, view, update, and delete events and their schedules.
+- Venue Management:
+  Manage venue details, including location and capacity.
+- Ticket Management:
+  Handle ticket creation, sales, and cancellations.
+- Feedback System:
+  Collect and manage user feedback on events.
+- Reporting and Analytics:
+  Generate reports and analyze ticket sales and user activities.
 
 ### Solution Architecture
 
