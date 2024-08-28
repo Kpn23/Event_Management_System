@@ -32,17 +32,6 @@ Database: SQLite database (project_database.db) to store all relevant data.
 Backend Logic: Python scripts to handle business logic, database interactions, and user authentication.
 User Interface: Command-line interface for user interactions.
 
-### Usage
-
-Upon running the application, users can choose from the following options:
-User Management: Admins can manage user accounts.
-Event Management: Admins can manage events and their schedules.
-Venue Management: Admins can manage venue details.
-Ticket Management: Admins can manage ticket sales and cancellations.
-Feedback Management: Admins can collect and manage feedback.
-Reporting and Analytics: Admins can generate reports and analyze data.
-Users can also register, log in, view available events, purchase tickets, and provide feedback on events they attended.
-
 ### Tables
 
 1. Users
@@ -87,6 +76,35 @@ Users can also register, log in, view available events, purchase tickets, and pr
 - Events can have multiple Tickets associated with them.
 - Events can receive multiple Feedback entries from users.
 - Venues can host multiple Events.
+
+### How to Run a Python File
+
+Step 1: Open the Command Line Interface
+
+- Windows: Press Win + R, type cmd, and hit Enter.
+- macOS: Open Terminal from the Applications folder.
+- Linux: Open your preferred terminal emulator.
+  Step 2: Navigate to the Directory
+  Use the cd command to navigate to the directory where your Python file is located. For example:
+
+```bash
+cd path/to/your/directory
+```
+
+Step 3: Run the Python File
+Once you are in the correct directory, you can run your Python file by typing:
+
+```bash
+python filename.py
+```
+
+or, if you are using Python 3 specifically:
+
+```bash
+python3 filename.py
+```
+
+Make sure to replace filename.py with the actual name of your Python file.
 
 ### Tech Stack
 
