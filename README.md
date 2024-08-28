@@ -32,28 +32,6 @@ Database: SQLite database (project_database.db) to store all relevant data.
 Backend Logic: Python scripts to handle business logic, database interactions, and user authentication.
 User Interface: Command-line interface for user interactions.
 
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-```
-
-2. Ensure you have Python installed on your machine.
-   Install required packages (if any):
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Run the application:
-
-```bash
-python event_management_system.py
-```
-
 ### Usage
 
 Upon running the application, users can choose from the following options:
