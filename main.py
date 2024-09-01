@@ -1202,9 +1202,6 @@ def admin_menu(result, name):
                 conn.close()
             elif function_choice == 4:  # Delete user
                 del_user(int(input("Delete user_id: ")))
-            else:
-                print("Logout")
-                break
 
         elif table_choice == 2:  # Event Management
             print("\nThis is the Event Management section. Would you like to:")
